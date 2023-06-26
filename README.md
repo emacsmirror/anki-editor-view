@@ -2,7 +2,7 @@
 
 Anki plugin to open [anki-editor](https://github.com/louietan/anki-editor/) notes over org-protocol from anki in emacs.
 
-## Usage
+## Installation
 
 Install the Anki plugin by downloading it from [the official website](https://ankiweb.net/shared/info/1301464350). Install the emacs plugin in e.g. doom emacs with use-package by adding
 ``` emacs-lisp
@@ -22,6 +22,10 @@ You also need to install [ripgrep](https://github.com/BurntSushi/ripgrep) to use
 
 If you haven't setup org-protocol yet, you need to configure your system as described in [worg](https://orgmode.org/worg/org-contrib/org-protocol.html).
 
-## Contribute
+## Usage
+
+The Anki plugin adds the keybinding `C-O` to the reviewer and the browser. You can also use the "More" menu in the reviewer and the "Notes" menu in the browser.
+
+## Contributing
 
 I will try to take a look at every pr, but I (probably) won't implement your feature requests.
