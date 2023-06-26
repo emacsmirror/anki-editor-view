@@ -58,7 +58,6 @@ Returns a list of alists in the form `((file . \"…\") (line . …))'"
          (result (shell-command-to-string command))
          (locations (split-string result "\n" t)))
     (cl-map 'list (lambda (it)
-                    (message "%s" it)
                     (if (string-match "\\([^:]+\\):\\([0-9]+\\):" it)
                         `((file . ,(match-string 1 it))
                           (line . ,(string-to-number (match-string 2 it))))
