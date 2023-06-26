@@ -4,7 +4,7 @@ Anki plugin to open [anki-editor](https://github.com/louietan/anki-editor/) note
 
 ## Usage
 
-Install the Anki plugin manually by moving this repo to Anki's addon folder (~/.local/share/Anki2/addons21 on my system). Install the emacs plugin in e.g. doom emacs with use-package by adding
+Install the Anki plugin by downloading it from [the official website](https://ankiweb.net/shared/info/1301464350). Install the emacs plugin in e.g. doom emacs with use-package by adding
 ``` emacs-lisp
 (package! anki-editor-view
   :recipe (:type git
