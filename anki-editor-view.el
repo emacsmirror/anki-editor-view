@@ -44,7 +44,7 @@
 ;;; Code:
 
 (defun anki-editor-view--ripgrep-find-locations (search-string directories)
-  "Search for all locations of `search-string' in `directories' with ripgrep.
+  "Search for all locations of SEARCH-STRING in DIRECTORIES with ripgrep.
 
 Returns a list of alists in the form `((file . \"…\") (line . …))'"
   (let* ((directories-string (apply #'concat
