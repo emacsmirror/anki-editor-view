@@ -20,6 +20,8 @@ to your package.el and
 to config.el. 
 You also need to install [ripgrep](https://github.com/BurntSushi/ripgrep) to use this plugin.
 
+If you haven't setup org-protocol yet, you need to configure your system as described in [worg](https://orgmode.org/worg/org-contrib/org-protocol.html).
+
 ## Contribute
 
 I will try to take a look at every pr, but I (probably) won't implement your feature requests.
