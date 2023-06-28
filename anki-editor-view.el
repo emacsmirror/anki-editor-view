@@ -80,8 +80,8 @@ Returns a list of alists in the form `((file . \"…\") (line . …))'"
         (find-file file)
         (goto-char (point-min))
         (forward-line (1- line))
-        (org-back-to-heading)
-        (recenter-top-bottom)
+        (org-back-to-heading t)
+        (org-fold-show-context)
         (org-fold-show-subtree)
         (recenter-top-bottom)))
 
