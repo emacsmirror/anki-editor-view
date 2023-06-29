@@ -1,6 +1,6 @@
 # anki-editor-view
 
-Anki plugin to open [anki-editor](https://github.com/louietan/anki-editor/) notes over org-protocol from anki in emacs.
+Do you use anki [anki-editor](https://github.com/louietan/anki-editor/) for your Anki notes? While reviewing your cards, have you ever found a silly spelling error or inaccuracy? And had to search for the note in your org files? Anki-editor-view might be something for you if you answered yes to all of these questions. It's an Anki plugin for opening Anki-editor notes in Emacs.
 
 ## Installation
 
