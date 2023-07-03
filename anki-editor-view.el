@@ -29,6 +29,7 @@
 
 (require 'org)
 (require 'org-protocol)
+(require 'org-fold)
 
 ;;; Custom variables:
 
@@ -65,7 +66,7 @@ Returns a list of alists in the form `((file . \"…\") (line . …))'"
             locations)))
 
 (defun anki-editor-view--open-anki-note (info)
-  "Open the anki note with the given id."
+  "Open the Anki note with the id specified in the plist INFO."
   (let* ((search-string (format ":ANKI_NOTE_ID: %s" (plist-get info :id)))
          (locations
           (anki-editor-view--ripgrep-find-locations search-string
