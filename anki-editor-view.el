@@ -1,13 +1,14 @@
-;;; anki-editor-view.el --- Open Anki notes in Emacs -*- lexical-binding: t; -*-
+;;; anki-editor-view.el --- Open anki-editor notes from Anki -*- lexical-binding: t; -*-
 
 ;; Copyright (c) 2023 Valentin Herrmann
 
 ;; Author: Valentin Herrmann <me@valentin-herrmann.de>
 ;; Version: 0.1.1
-;; Package-Requires: ((emacs "25.1"))
+;; Package-Requires: ((emacs "29.1"))
 ;; URL: https://gitlab.com/vherrmann/anki-editor-view
 
 ;;; Commentary:
+;;; To use anki-editor-view you have to install ripgrep.
 
 ;; Open Anki notes in Emacs from Anki
 ;; This file is not a part of GNU Emacs.
