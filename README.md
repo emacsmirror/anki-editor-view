@@ -6,10 +6,7 @@ Do you use anki [anki-editor](https://github.com/louietan/anki-editor/) for your
 
 Install the Anki plugin by downloading it from [the official website](https://ankiweb.net/shared/info/1301464350). Install the emacs plugin in e.g. doom emacs with use-package by adding
 ``` emacs-lisp
-(package! anki-editor-view
-  :recipe (:type git
-           :host gitlab
-           :repo "vherrmann/anki-editor-view"))
+(package! anki-editor-view)
 ```
 to your package.el and
 ``` emacs-lisp
